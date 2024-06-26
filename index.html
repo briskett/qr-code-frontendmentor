@@ -1,66 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | QR code component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        height: 100vh; /* Full viewport height */
+        background-color: #d3dfed;
+        display: flex; /* Enable Flexbox on body */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        max-width: 320px;
+        background-color: #fdfdfd;
+        border: 5px #fdfdfd solid;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+      }
+      .container img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .container h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        font-family: "Outfit", sans-serif;
+        color: hsl(218, 44%, 22%);
+        line-height: 1.2; /* Adjust the line height */
+        padding: 10px;
+      }
+      .container p {
+        font-family: "Outfit", sans-serif;
+        margin: 0;
+        padding-bottom: 10px;
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: hsl(220, 15%, 55%);
+        line-height: 1.5; /* Adjust the line height */
+      }
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    body {
-      height: 100vh; /* Full viewport height */
-      background-color: #d3dfed;
-      display: flex; /* Enable Flexbox on body */
-      justify-content: center; /* Center horizontally */
-      align-items: center; /* Center vertically */
-    }
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      width: 90%;
-      max-width: 320px;
-      background-color: #fdfdfd;
-      border: 5px #fdfdfd solid;
-      border-radius: 15px;
-      padding: 20px;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
-    }
-    .container img {
-      width: 100%;
-      border-radius: 10px;
-    }
-    .container h1 {
-      font-weight: 700;
-      font-size: 1.5rem;
-      font-family: "Outfit", sans-serif;
-      color: hsl(218, 44%, 22%);
-      line-height: 1.2; /* Adjust the line height */
-      padding: 10px;
-    }
-    .container p {
-      font-family: "Outfit", sans-serif;
-      margin: 0;
-      padding-bottom: 10px;
-      font-weight: 400;
-      font-size: 1.2rem;
-      color: hsl(220, 15%, 55%);
-      line-height: 1.5; /* Adjust the line height */
-    }
-
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="images/image-qr-code.png">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-
-  </div>
-
-</body>
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/image-qr-code.png" alt="">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </body>
 </html>
